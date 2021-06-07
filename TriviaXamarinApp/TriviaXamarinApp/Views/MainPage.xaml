@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TriviaXamarinApp.MainPage">
+
+    <StackLayout>
+        <Label Text="Trivia Time!" FontSize="60" FontAttributes="Bold" HorizontalOptions="Center" />
+        <Button Text="Sign Up" x:Name="SignUpPage" Command="{Binding SignUpCommand}" VerticalOptions="EndAndExpand" WidthRequest="40" HeightRequest="40"/>
+        <Button Text="Log In"  x:Name="LogInPage"  Command="{Binding LogInCommand}"  VerticalOptions="EndAndExpand" WidthRequest="40" HeightRequest="40" ></Button>
+    </StackLayout>
+
+</ContentPage>
